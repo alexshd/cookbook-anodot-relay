@@ -6,6 +6,8 @@ description      'Installs/Configures anodot-relay'
 long_description 'Installs/Configures anodot-relay'
 version          '0.1.0'
 
+supports 'ubuntu', ">= 14.0"
+
 depends 'apt'
 depends 'nodejs'
 depends 'runit'
