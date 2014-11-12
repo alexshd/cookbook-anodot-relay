@@ -23,4 +23,4 @@ template "/etc/anodot-relay/config.json" do
   mode "0644"
 end
 
-include_recipe "anodot-relay::service"
+include_recipe "cookbook-anodot-relay::service"
