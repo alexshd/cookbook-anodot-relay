@@ -7,7 +7,7 @@
 include_recipe "apt"
 include_recipe "nodejs::npm"
 
-nodejs_npm "graphite-relay"
+nodejs_npm "anodot-relay"
 
 directory "/etc/anodot-relay" do
   owner "root"
