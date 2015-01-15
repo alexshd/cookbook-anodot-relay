@@ -3,7 +3,10 @@
     "token": "<%= node['anodot']['token'] %>",
     "log": "<%= node['anodot']['loglevel'] %>",
     "showStats": <%= node['anodot']['showStats'] %>,
+    "sendStats": <%= node['anodot']['sendStats'] %>,
     "plainPort": <%= node['anodot']['plainPort']%>,
     "picklePort": <%= node['anodot']['picklePort']%>,
-    "flushInterval": <%= node['anodot']['flushInterval']%>
+    "flushInterval": <%= node['anodot']['flushInterval']%>,
+    "metricFilter": "<%= node['anodot']['metricFilter']%>",
+    "metricRewrite": <%= node['anodot']['metricRewrite']%>
 }
