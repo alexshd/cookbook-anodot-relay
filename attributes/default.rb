@@ -6,4 +6,5 @@ default['anodot']['plainPort'] = 2003
 default['anodot']['picklePort'] = 2004
 default['anodot']['flushInterval'] = 5000
 default['anodot']['metricFilter'] = ""
-default['anodot']['metricRewrite'] = [] 
+default['anodot']['metricRewrite'] = []
+default['anodot']['version'] = nil
