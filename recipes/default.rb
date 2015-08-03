@@ -7,7 +7,10 @@
 include_recipe "apt"
 include_recipe "nodejs::npm"
 
-nodejs_npm "anodot-relay"
+nodejs_npm "anodot-relay" do
+  version node['anodot']['version']
+end
+
 
 directory "/etc/anodot-relay" do
   owner "root"
